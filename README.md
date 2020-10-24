@@ -31,4 +31,3 @@ The project use Bootstrap 4 and it consists of the following pages:
     - adding new feature
     - improving the documentation
 3. Push your work and create a Pull Request
-
