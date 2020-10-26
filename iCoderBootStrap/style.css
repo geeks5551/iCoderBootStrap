@@ -1,0 +1,22 @@
+.navbar-bgcolor {
+    background-color: #003542;
+}
+
+* {
+    color: black;
+}
+
+.navbar-color {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo 2', cursive;
+    color: grey;
+    font-size: large;
+}
+
+.navbar-login {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    background-color: wheat;
+}
