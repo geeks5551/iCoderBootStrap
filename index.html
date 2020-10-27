@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Vampiro+One&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
@@ -41,21 +41,35 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/iCoderBootStrap/">iCoder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
     <nav class="navbar navbar-expand-lg  navbar-bgcolor">
         <a class="navbar-brand" href="/iCoderBootStrap/"><span style="font-family: 'Lobster', cursive;
             font-family: 'Vampiro One', cursive; font-size: 30px; "> i </span><span style="  font-size: 30px; font-family: 'Abril Fatface', cursive;
 ">Coder</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
+
+                    <a class="nav-link" href="/iCoderBootStrap/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/iCoderBootStrap/about.html">About</a>
+
                     <a class="nav-link navbar-color" href="/iCoderBootStrap/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link navbar-color" href="/about.html">About</a>
+
                 </li>
 
                 <li class="nav-item dropdown ">
@@ -71,7 +85,11 @@
                     </div>
                 </li>
                 <li class="nav-item">
+
+                    <a class="nav-link" href="/iCoderBootStrap/contact.html">Contact Us</a>
+
                     <a class="nav-link navbar-color" href="/iCoderBootStrap/contact.html">Contact Us</a>
+
                 </li>
 
 
@@ -280,6 +298,72 @@
             </div>
         </div>
     </div>
+
+    <footer class="container">
+       <i class="fas fa-sort-up"></i> <p onclick="topFunction()" class="float-right" id="myBtn"><a href="#" class="linkcolor">Back to top</a></p>
+        <style type="text/css">
+            #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: green; /* Set a background color */
+
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 8px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+
+}
+
+.linkcolor {
+    color: #ffffff;
+    
+}
+
+a.linkcolor:hover
+{
+   color: #ffffff; 
+   text-decoration: none;
+}
+html{
+     scroll-behavior: smooth;
+}
+        </style>
+        <script type="text/javascript">
+            mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction()
+
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+
+  } else {
+    mybutton.style.display = "none";
+  }
+
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; 
+
+  // For Chrome, Firefox, IE and Opera
+}
+        </script>
+
+        <p>© 2020-2021 iCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
 	<footer class="footer">
 		<div class="row justify-content-center"style="background-color:#003542;padding:10px;">
             <div class="col-auto">
@@ -293,6 +377,7 @@
         <p class="float-right"><a href="#">Back to top</a></p>
         <p>© 2020-2021 iCoder, Inc.  <a href="#">Privacy</a> · <a href="#">Terms</a></p>
     </footer>-->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
