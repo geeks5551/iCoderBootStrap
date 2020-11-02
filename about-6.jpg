@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 509.88 719.37" version="1.1">
+  <g id="layer1" transform="translate(-52.53 -15.031)">
+    <g id="g4501" stroke-linejoin="round" stroke-linecap="round">
+      <rect id="rect2818" style="color:#000000" transform="rotate(38.669)" ry="5.3837" height="10.767" width="601.71" stroke="#ffc7c7" y="239.19" x="264.65" stroke-width=".2"/>
+      <rect id="rect3613" style="color:#000000" transform="rotate(-51.333)" ry="0" width="441.64" stroke="#5f5f5f" y="272.04" x="-243.82" height="289.27"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Black flag</dc:title>
+        <dc:date>2010-05-25T03:55:22</dc:date>
+        <dc:description>A black flag, used to order a driver to go to the pits for penalty or disqualification (in F1). Drawn in Inkscape.</dc:description>
+        <dc:source>http://openclipart.org/detail/62665/black-flag-by-j_alves</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>J_Alves</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>automotive</rdf:li>
+            <rdf:li>black flag</rdf:li>
+            <rdf:li>car</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>disqualification</rdf:li>
+            <rdf:li>flag</rdf:li>
+            <rdf:li>penalty</rdf:li>
+            <rdf:li>race</rdf:li>
+            <rdf:li>racing</rdf:li>
+            <rdf:li>sports</rdf:li>
+            <rdf:li>sports2010</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
